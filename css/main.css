@@ -3,6 +3,67 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+  width: 10%;
+}
+
+h2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: .2em;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.quest {
+  float: left;
+  width: 25%;
+  background-color: #f2f2f2;
+}
+
+.dino {
+  float: left;
+  width: 25%;
+  background-color: #e2e2e2;
+}
+
+.dragon {
+  float: left;
+  width: 25%;
+  background-color: #ccc;
+}
+
+.ship {
+  float: left;
+  width: 25%;
+  background-color: #aaa;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
